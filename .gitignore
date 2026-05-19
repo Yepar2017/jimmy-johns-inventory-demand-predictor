@@ -1,0 +1,19 @@
+# Private source data
+Data_raw_daily_sales_reports/
+Data_raw_weekly_reports/
+
+# Generated artifacts from private data
+data/processed/
+models/
+*.joblib
+
+# Local editor and environment files
+.vscode/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
